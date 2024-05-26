@@ -12,6 +12,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.cvtt.ui.components.Album
 import com.example.cvtt.ui.components.DealImage
 import com.example.cvtt.ui.theme.CvttTheme
 
@@ -31,7 +32,8 @@ class MainActivity : ComponentActivity() {
         setContent {
             CvttTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    DealImage()
+//                    DealImage()
+                    Album()
 
                 }
             }
